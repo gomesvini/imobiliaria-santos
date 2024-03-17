@@ -1,0 +1,9 @@
+.header{
+    max-width: max-content;
+    margin: 0 auto;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;    
+}
