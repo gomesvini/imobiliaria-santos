@@ -1,9 +1,29 @@
-.header{
-    max-width: max-content;
-    margin: 0 auto;
+.container {
+    text-align: center;
 }
 
-.menu{
+.header{
+    background-color: #B0DDFC;
+    height: 38vh;
+}
+
+.logo img {
+    width: 9rem;
+}
+
+.menu {
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
+    width: 28%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.menu a {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.banner {
+    margin: 3rem;
 }
