@@ -36,7 +36,7 @@
     line-height: 1rem;
 }
 
-.find-imovel img {
+.find-imovel img, .corretores img {
     width: 28rem;
 }
 
@@ -51,13 +51,14 @@
 }
 
 .find-imovel h2,
-.find-imovel span {
+.find-imovel span, .corretores h2, .corretores span {
     color: #3A79A2;
+    font-weight: bold;
 }
 
 .services {
     background-color: #1D80C1;
-    color: #B0DDFC;
+    color: #f3f6f8;
     line-height: 2rem;
     font-size: 22px;
     font-weight: 600;
@@ -82,4 +83,16 @@
 
 .services span {
     color:#FFF945;
+}
+
+.corretores h2 {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.corretores p {
+    width: 75%;
+    margin: 1rem auto;
+    text-align: left;
+    line-height: 1.5rem;
 }
