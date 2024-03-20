@@ -43,17 +43,26 @@
     width: 28rem;
 }
 
+.find-imovel h2 {
+    margin-bottom: 2rem;
+    margin-top: 1.5rem; 
+    color: #3A79A2;
+    font-weight: normal;
+}
+
 .find-imovel p {
     text-align: left;
     font-size: 19px;
     line-height: 1.4rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
 }
 
 .find-imovel span {
     font-weight: bold;
 }
 
-.find-imovel h2,
+
 .find-imovel span, .corretores h2, .corretores span {
     color: #3A79A2;
     font-weight: bold;
@@ -109,6 +118,7 @@
 
 .contacts h2 {
     padding-top: 3rem;
+    padding-bottom: 1rem;
 }
 
 .contacts p {
@@ -125,7 +135,7 @@
     width: max-content;
     margin: 1rem auto;
     background-color: #f3f6f8;
-    padding: 0 0.3rem;
+    padding: 0.1rem 0.5rem;
     border-radius: 5px;
     color: #3A79A2;
 }
