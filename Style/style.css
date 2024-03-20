@@ -81,7 +81,7 @@
     text-align: left;
 }
 
-.services span {
+.services span, .contacts span {
     color:#FFF945;
 }
 
@@ -95,4 +95,38 @@
     margin: 1rem auto;
     text-align: left;
     line-height: 1.5rem;
+}
+
+.contacts{
+    background-color: #1D80C1;
+    color: #f3f6f8;
+    font-weight: bold;
+    height: 110vh;
+}
+
+.contacts h2 {
+    padding-top: 3rem;
+}
+
+.contacts p {
+    border: 1px solid #1D1D1D;
+    background-color: #1D1D1D;
+    width: max-content;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.contacts li {
+    list-style: none;
+    border: 1px solid #f3f6f8;
+    width: max-content;
+    margin: 1rem auto;
+    background-color: #f3f6f8;
+    padding: 0 0.3rem;
+    border-radius: 5px;
+    color: #3A79A2;
+}
+
+a.links{
+    color: inherit;
 }
