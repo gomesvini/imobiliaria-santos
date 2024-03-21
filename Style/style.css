@@ -1,6 +1,11 @@
-*{
+* {
     margin: 0;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     text-align: center;
     font-family: Tahoma;
@@ -39,13 +44,14 @@
     line-height: 1rem;
 }
 
-.find-imovel img, .corretores img {
+.find-imovel img,
+.corretores img {
     width: 28rem;
 }
 
 .find-imovel h2 {
     margin-bottom: 2rem;
-    margin-top: 1.5rem; 
+    margin-top: 1.5rem;
     color: #3A79A2;
     font-weight: normal;
 }
@@ -63,7 +69,9 @@
 }
 
 
-.find-imovel span, .corretores h2, .corretores span {
+.find-imovel span,
+.corretores h2,
+.corretores span {
     color: #3A79A2;
     font-weight: bold;
 }
@@ -93,8 +101,9 @@
     text-align: left;
 }
 
-.services span, .contacts span {
-    color:#FFF945;
+.services span,
+.contacts span {
+    color: #FFF945;
 }
 
 .corretores h2 {
@@ -109,7 +118,7 @@
     line-height: 1.5rem;
 }
 
-.contacts{
+.contacts {
     background-color: #1D80C1;
     color: #f3f6f8;
     font-weight: bold;
@@ -140,6 +149,6 @@
     color: #3A79A2;
 }
 
-a.links{
+a.links {
     color: inherit;
 }
